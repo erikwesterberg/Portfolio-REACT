@@ -2,7 +2,7 @@ import React from "react"
 
 const LandingPage = () => {
         return (
-            <div> Fuck World</div>  
+            <div> hey World</div>  
         )
 }
 
