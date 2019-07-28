@@ -86,7 +86,7 @@
   
   .button2:hover {
     top: -10px;
-    box-shadow: 0px 10px 10px yellow;
+    box-shadow: 0px 10px 10px black;
     
     -webkit-transform: rotateX(20deg);
        -moz-transform: rotateX(20deg);
@@ -97,5 +97,5 @@
   .button2:active {
     top: 0px;
     box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.0 );
-    background: red;
+    background: white;
   }

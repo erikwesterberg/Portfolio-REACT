@@ -10,6 +10,7 @@ import { Switch, Route } from 'react-router-dom'
 import picture from "./img/nudu.jpg"
 
 
+
 const App = () => {
     return (
         <div>

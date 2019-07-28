@@ -1,5 +1,6 @@
 import React from "react"
 import "./css/landingpage.css";
+import { NavLink } from 'react-router-dom';
 
 
 const LandingPage = () => {
@@ -107,7 +108,7 @@ const LandingPage = () => {
     <div class="bubble"></div>
     <div class="bubble"></div>
     <div class="bubble"></div>
-    <button id="arrow" class="button2">About Me</button>
+    <NavLink id="arrow" class="button2" to="./aboutme">About Me</NavLink>
 </div>
 
 </div>
