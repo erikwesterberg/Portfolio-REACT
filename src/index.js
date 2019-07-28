@@ -7,12 +7,20 @@ import About from "./aboutme"
 import Projects from "./projects"
 import Contact from "./contact"
 import { Switch, Route } from 'react-router-dom'
+import picture from "./img/nudu.jpg"
+
 
 const App = () => {
     return (
         <div>
             <Header />
-            <LandingPage />
+            <div className="HomeHeader">
+            <h2 className="header">Hi, I'm Erik</h2>
+            <p>I'm a Full Stack Developer living in Stockholm, Sweden</p>
+            </div>
+            <img className="arrowPic" src={picture} />
+            {/* <button id="arrow" class="button2">About</button> */}
+           <LandingPage />
             <Switch>
                 <Route exact path='/contact' component={Contact}></Route>
                 <Route exact path='/aboutme' component={About}></Route>

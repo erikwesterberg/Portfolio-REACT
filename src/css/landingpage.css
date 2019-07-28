@@ -1050,3 +1050,36 @@ html, body {
     background: #8026d9;
   }
   
+  .HomeHeader {
+    font-family: Permanent Marker, cursive;
+    font-size: 30px;
+    color: yellow;
+    float: left;
+    width: 500px;
+    position: absolute;
+    left: 50px;
+    text-decoration: underline;
+     }
+  
+  .header {
+    font-family: Permanent Marker, cursive;
+    font-size: 85px;
+    text-decoration: underline;
+    color: white;
+  }
+ 
+
+  #arrow {
+    float: right;
+    margin-right: -280px;
+    margin-top: 300px;
+    position: relative;
+  }
+  
+.arrowPic {
+    width: 160px;
+    height: 160px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 65px;
+}
