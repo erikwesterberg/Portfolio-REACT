@@ -1,0 +1,20 @@
+.icons {
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 1rem;
+    position: absolute;
+    left: 150px;
+    
+    }
+
+.icon {
+    color: white;
+    padding: 0.4rem;
+    height: 70px;
+    width: 70px;
+    margin-top: 50px;
+}
+
+.icon:hover {
+    color: yellow;
+}

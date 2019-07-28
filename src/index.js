@@ -6,6 +6,7 @@ import Header from "./header"
 import About from "./aboutme"
 import Projects from "./projects"
 import Contact from "./contact"
+import Footer from "./Footer"
 import { Switch, Route } from 'react-router-dom'
 import picture from "./img/nudu.jpg"
 
@@ -20,14 +21,18 @@ const App = () => {
             <p>I'm a Full Stack Developer living in Stockholm, Sweden</p>
             </div>
             <img className="arrowPic" src={picture} />
-            {/* <button id="arrow" class="button2">About</button> */}
+            
            <LandingPage />
+           <Footer />
+            <About />
+            <Projects />
             <Switch>
                 <Route exact path='/contact' component={Contact}></Route>
                 <Route exact path='/aboutme' component={About}></Route>
                 <Route exact path='/projects' component={Projects}></Route>
                 <Route exact path='/landingpage' component={LandingPage}></Route>
             </Switch>
+            
         </div>
     )
 };
