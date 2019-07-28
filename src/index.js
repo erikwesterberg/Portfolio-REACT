@@ -16,23 +16,24 @@ const App = () => {
     return (
         <div>
             <Header />
-            <div className="HomeHeader">
-            <h2 className="header">Hi, I'm Erik</h2>
-            <p>I'm a Full Stack Developer living in Stockholm, Sweden</p>
-            </div>
-            <img className="arrowPic" src={picture} />
+                <div className="HomeHeader">
+                <h2 className="header">Hi, I'm Erik</h2>
+                <p>I'm a Full Stack Developer living in Stockholm, Sweden</p>
+                </div>
+                <img className="arrowPic" src={picture} />
             
            <LandingPage />
            <Footer />
             <About />
             <Projects />
-            <Switch>
-                <Route exact path='/contact' component={Contact}></Route>
-                <Route exact path='/aboutme' component={About}></Route>
-                <Route exact path='/projects' component={Projects}></Route>
-                <Route exact path='/landingpage' component={LandingPage}></Route>
-            </Switch>
-            
+            <div class="switch">
+                <Switch>
+                    <Route exact path='/contact' component={Contact}></Route>
+                    <Route exact path='/aboutme' component={About}></Route>
+                    <Route exact path='/projects' component={Projects}></Route>
+                    <Route exact path='/landingpage' component={LandingPage}></Route>
+                </Switch>
+            </div>
         </div>
     )
 };
